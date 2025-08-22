@@ -1,0 +1,93 @@
+Assignment 2 — Comparative Financial QA System: RAG vs Fine-Tuning
+Objective
+
+Develop and compare two systems for answering questions based on company financial statements (last two years):
+
+1. Retrieval-Augmented Generation (RAG) Chatbot: Combines document retrieval and generative response.
+2. Fine-Tuned Language Model (FT) Chatbot: Directly fine-tunes a small open-source language model on financial Q&A.
+
+Use the same financial data for both methods and perform a detailed comparison on accuracy, speed, and robustness.
+
+Step-by-Step Tasks
+
+1. Data Collection & Preprocessing
+- Obtain financial statements for the last two years.
+- Convert documents to plain text and clean them.
+- Segment reports into logical sections.
+- Construct at least 50 question-answer pairs.
+
+2. Retrieval-Augmented Generation (RAG) System Implementation
+2.1 Data Processing
+- Split cleaned text into chunks of at least two sizes.
+- Assign unique IDs and metadata.
+
+2.2 Embedding & Indexing
+- Embed chunks using an open-source model.
+- Build dense vector store and sparse index.
+
+2.3 Hybrid Retrieval Pipeline
+- Preprocess query, generate embedding, retrieve top-N from dense and sparse stores, combine results.
+
+2.4 Advanced RAG Technique (choose one)
+- Multi-Stage Retrieval
+- Chunk Merging & Adaptive Retrieval
+- Re-Ranking with Cross-Encoders
+- Hybrid Search (Sparse + Dense)
+- Memory-Augmented Retrieval
+
+2.5 Response Generation
+- Use a small open-source generative model.
+- Concatenate retrieved passages and query as input.
+
+2.6 Guardrail Implementation
+- Implement input or output side guardrail.
+
+2.7 Interface Development
+- Build UI (Streamlit, Gradio, CLI) to accept queries and display answers, confidence, method, response time, and allow switching between RAG and FT.
+
+3. Fine-Tuned Model System Implementation
+3.1 Q/A Dataset Preparation
+- Use the same ~50 Q/A pairs.
+
+3.2 Model Selection
+- Choose a small open-source model.
+
+3.3 Baseline Benchmarking
+- Evaluate pre-trained model on at least 10 test questions.
+
+3.4 Fine-Tuning
+- Fine-tune on dataset; log hyperparameters.
+
+3.5 Advanced Fine-Tuning Technique (choose one)
+- Supervised Instruction Fine-Tuning
+- Adapter-Based Parameter-Efficient Tuning
+- Mixture-of-Experts Fine-Tuning
+- Retrieval-Augmented Fine-Tuning
+- Continual Learning / Domain Adaptation
+
+3.6 Guardrail Implementation
+- Input or output side guardrail.
+
+3.7 Interface Development
+- Integrate fine-tuned model into same UI as RAG.
+
+4. Testing, Evaluation & Comparison
+4.1 Test Questions
+- Evaluate both systems on three official queries (relevant high-confidence, relevant low-confidence, irrelevant) and at least 10 additional financial questions.
+
+4.2 Extended Evaluation
+- Record real answers, model answers, confidence, response time, correctness.
+
+4.3 Results Table
+- Provide comparison table.
+
+4.4 Analysis
+- Compare accuracy, latency, robustness; discuss strengths and trade-offs.
+
+5. Submission Requirements
+- Submit ZIP with code, notebook, report, screenshots, and hosted app link.
+- Use only open-source models.
+
+Notes
+- Implement clear guardrails.
+- UI should indicate which method produces the answer.

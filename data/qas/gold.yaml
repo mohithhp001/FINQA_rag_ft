@@ -1,0 +1,640 @@
+# Gold QA set for FINQA (HDFC Bank FY2023–24 & FY2024–25)
+
+- id: dep_fy25
+  question: What were HDFC Bank’s total deposits as on March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Total Deposits
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Directors’ Report / Highlights
+
+- id: casa_fy25
+  question: What was the CASA ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: CASA ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Directors’ Report / Highlights
+
+- id: adv_fy25
+  question: What were total advances as on March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Total Advances
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Directors’ Report / Highlights
+
+- id: pat_fy25_standalone
+  question: What was Net Profit (PAT) in FY2024–25 (standalone)?
+  answer: 
+  year: FY2024-25
+  metric: PAT (Standalone)
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Directors’ Report / Highlights
+
+- id: gnpa_fy25
+  question: What was the Gross NPA ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Gross NPA ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Risk / Asset Quality summary
+
+- id: nnpa_fy25
+  question: What was the Net NPA ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Net NPA ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Risk / Asset Quality summary
+
+- id: pcr_fy25
+  question: What was the Provision Coverage Ratio (PCR) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Provision Coverage Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Risk / Asset Quality summary
+
+- id: cir_fy25
+  question: What was the Cost-to-Income ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Cost-to-Income ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: nim_fy25
+  question: What was the Net Interest Margin (NIM) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Net Interest Margin
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: car_fy25
+  question: What was the Capital Adequacy Ratio (CRAR/CAR) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Capital Adequacy Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Capital & Risk / Basel
+
+- id: tier1_fy25
+  question: What was the Tier 1 capital ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Tier 1 Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Capital & Risk / Basel
+
+- id: cet1_fy25
+  question: What was the CET1 ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: CET1 Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Capital & Risk / Basel
+
+- id: eps_fy25
+  question: What was the Basic EPS in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: EPS (Basic)
+  basis: Standalone
+  unit_hint: ₹
+  section_hint: Performance highlights / Ratios
+
+- id: roa_fy25
+  question: What was the Return on Assets (RoA) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: RoA
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: roe_fy25
+  question: What was Return on Average Net Worth (ROE) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: RoE
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: total_income_fy25_standalone
+  question: What was total income in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Total Income
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: nii_fy25
+  question: What was Net Interest Income (NII) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Net Interest Income
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: other_income_fy25
+  question: What was other income in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Other Income
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: ppop_fy25
+  question: What was the operating profit (PPOP) in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Operating Profit / PPOP
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: assets_fy25
+  question: What were total assets as at March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Total Assets
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Balance Sheet
+
+- id: networth_fy25
+  question: What was shareholders’ funds / net worth as at March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Shareholders’ Funds
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Balance Sheet
+
+- id: casa_value_fy25
+  question: What was the CASA deposits amount as on March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: CASA Deposits (₹)
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Deposit mix / Highlights
+
+- id: termdep_value_fy25
+  question: What was the time deposits amount as on March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Time Deposits (₹)
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Deposit mix / Highlights
+
+- id: cd_ratio_fy25
+  question: What was the Credit-to-Deposit (CD) ratio in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Credit-to-Deposit ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: nim_fy25_consol
+  question: What was the Net Interest Margin (NIM) in FY2024–25 (consolidated)?
+  answer: 
+  year: FY2024-25
+  metric: NIM (Consolidated)
+  basis: Consolidated
+  unit_hint: %
+  section_hint: Consolidated P&L / MD&A
+
+- id: pat_fy25_consol
+  question: What was Profit after Tax in FY2024–25 (consolidated)?
+  answer: 
+  year: FY2024-25
+  metric: PAT (Consolidated)
+  basis: Consolidated
+  unit_hint: ₹ crore
+  section_hint: Consolidated Profit and Loss
+
+- id: total_income_fy25_consol
+  question: What was total income in FY2024–25 (consolidated)?
+  answer: 
+  year: FY2024-25
+  metric: Total Income (Consolidated)
+  basis: Consolidated
+  unit_hint: ₹ crore
+  section_hint: Consolidated Profit and Loss
+
+- id: assets_fy25_consol
+  question: What were total assets as at March 31, 2025 (consolidated)?
+  answer: 
+  year: FY2024-25
+  metric: Total Assets (Consolidated)
+  basis: Consolidated
+  unit_hint: ₹ crore
+  section_hint: Consolidated Balance Sheet
+
+- id: gnpa_fy25_consol
+  question: What was the Gross NPA ratio in FY2024–25 (consolidated)?
+  answer: 
+  year: FY2024-25
+  metric: GNPA (Consolidated)
+  basis: Consolidated
+  unit_hint: %
+  section_hint: Consolidated notes / Asset quality
+
+- id: nnpa_fy25_consol
+  question: What was the Net NPA ratio in FY2024–25 (consolidated)?
+  answer: 
+  year: FY2024-25
+  metric: NNPA (Consolidated)
+  basis: Consolidated
+  unit_hint: %
+  section_hint: Consolidated notes / Asset quality
+
+- id: employees_fy25
+  question: How many employees did HDFC Bank have as at March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Employees
+  basis: Standalone
+  unit_hint: 
+  section_hint: Statutory section / Corporate overview
+
+- id: branches_fy25
+  question: How many branches were there as at March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Branches
+  basis: Standalone
+  unit_hint: 
+  section_hint: Statutory section / Corporate overview
+
+- id: dps_fy25
+  question: What was the dividend per share for FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: Dividend per Share
+  basis: Standalone
+  unit_hint: ₹
+  section_hint: Directors’ Report / Corporate actions
+
+- id: bvps_fy25
+  question: What was the book value per share as at March 31, 2025?
+  answer: 
+  year: FY2024-25
+  metric: Book Value per Share
+  basis: Standalone
+  unit_hint: ₹
+  section_hint: Ratios / Highlights
+
+- id: casa_avg_fy25
+  question: What was the average CASA ratio in FY2024–25 (if disclosed)?
+  answer: 
+  year: FY2024-25
+  metric: CASA Ratio (avg)
+  basis: Standalone
+  unit_hint: %
+  section_hint: MD&A / Deposits
+
+- id: casa_share_fy25
+  question: What share of total deposits was CASA in FY2024–25?
+  answer: 
+  year: FY2024-25
+  metric: CASA Share of Deposits
+  basis: Standalone
+  unit_hint: %
+  section_hint: Directors’ Report / Highlights
+
+- id: dep_fy24
+  question: What were HDFC Bank’s total deposits as on March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Total Deposits
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Directors’ Report / Highlights
+
+- id: casa_fy24
+  question: What was the CASA ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: CASA ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Directors’ Report / Highlights
+
+- id: adv_fy24
+  question: What were total advances as on March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Total Advances
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Directors’ Report / Highlights
+
+- id: pat_fy24_standalone
+  question: What was Net Profit (PAT) in FY2023–24 (standalone)?
+  answer: 
+  year: FY2023-24
+  metric: PAT (Standalone)
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Directors’ Report / Highlights
+
+- id: gnpa_fy24
+  question: What was the Gross NPA ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Gross NPA ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Risk / Asset Quality summary
+
+- id: nnpa_fy24
+  question: What was the Net NPA ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Net NPA ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Risk / Asset Quality summary
+
+- id: pcr_fy24
+  question: What was the Provision Coverage Ratio (PCR) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Provision Coverage Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Risk / Asset Quality summary
+
+- id: cir_fy24
+  question: What was the Cost-to-Income ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Cost-to-Income ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: nim_fy24
+  question: What was the Net Interest Margin (NIM) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Net Interest Margin
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: car_fy24
+  question: What was the Capital Adequacy Ratio (CRAR/CAR) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Capital Adequacy Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Capital & Risk / Basel
+
+- id: tier1_fy24
+  question: What was the Tier 1 capital ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Tier 1 Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Capital & Risk / Basel
+
+- id: cet1_fy24
+  question: What was the CET1 ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: CET1 Ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Capital & Risk / Basel
+
+- id: eps_fy24
+  question: What was the Basic EPS in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: EPS (Basic)
+  basis: Standalone
+  unit_hint: ₹
+  section_hint: Performance highlights / Ratios
+
+- id: roa_fy24
+  question: What was the Return on Assets (RoA) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: RoA
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: roe_fy24
+  question: What was Return on Average Net Worth (ROE) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: RoE
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: total_income_fy24_standalone
+  question: What was total income in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Total Income
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: nii_fy24
+  question: What was Net Interest Income (NII) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Net Interest Income
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: other_income_fy24
+  question: What was other income in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Other Income
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: ppop_fy24
+  question: What was the operating profit (PPOP) in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Operating Profit / PPOP
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Profit and Loss
+
+- id: assets_fy24
+  question: What were total assets as at March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Total Assets
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Balance Sheet
+
+- id: networth_fy24
+  question: What was shareholders’ funds / net worth as at March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Shareholders’ Funds
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Standalone Balance Sheet
+
+- id: casa_value_fy24
+  question: What was the CASA deposits amount as on March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: CASA Deposits (₹)
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Deposit mix / Highlights
+
+- id: termdep_value_fy24
+  question: What was the time deposits amount as on March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Time Deposits (₹)
+  basis: Standalone
+  unit_hint: ₹ crore
+  section_hint: Deposit mix / Highlights
+
+- id: cd_ratio_fy24
+  question: What was the Credit-to-Deposit (CD) ratio in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Credit-to-Deposit ratio
+  basis: Standalone
+  unit_hint: %
+  section_hint: Performance highlights / Ratios
+
+- id: pat_fy24_consol
+  question: What was Profit after Tax in FY2023–24 (consolidated)?
+  answer: 
+  year: FY2023-24
+  metric: PAT (Consolidated)
+  basis: Consolidated
+  unit_hint: ₹ crore
+  section_hint: Consolidated Profit and Loss
+
+- id: total_income_fy24_consol
+  question: What was total income in FY2023–24 (consolidated)?
+  answer: 
+  year: FY2023-24
+  metric: Total Income (Consolidated)
+  basis: Consolidated
+  unit_hint: ₹ crore
+  section_hint: Consolidated Profit and Loss
+
+- id: assets_fy24_consol
+  question: What were total assets as at March 31, 2024 (consolidated)?
+  answer: 
+  year: FY2023-24
+  metric: Total Assets (Consolidated)
+  basis: Consolidated
+  unit_hint: ₹ crore
+  section_hint: Consolidated Balance Sheet
+
+- id: gnpa_fy24_consol
+  question: What was the Gross NPA ratio in FY2023–24 (consolidated)?
+  answer: 
+  year: FY2023-24
+  metric: GNPA (Consolidated)
+  basis: Consolidated
+  unit_hint: %
+  section_hint: Consolidated notes / Asset quality
+
+- id: nnpa_fy24_consol
+  question: What was the Net NPA ratio in FY2023–24 (consolidated)?
+  answer: 
+  year: FY2023-24
+  metric: NNPA (Consolidated)
+  basis: Consolidated
+  unit_hint: %
+  section_hint: Consolidated notes / Asset quality
+
+- id: employees_fy24
+  question: How many employees did HDFC Bank have as at March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Employees
+  basis: Standalone
+  unit_hint: 
+  section_hint: Statutory section / Corporate overview
+
+- id: branches_fy24
+  question: How many branches were there as at March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Branches
+  basis: Standalone
+  unit_hint: 
+  section_hint: Statutory section / Corporate overview
+
+- id: dps_fy24
+  question: What was the dividend per share for FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: Dividend per Share
+  basis: Standalone
+  unit_hint: ₹
+  section_hint: Directors’ Report / Corporate actions
+
+- id: bvps_fy24
+  question: What was the book value per share as at March 31, 2024?
+  answer: 
+  year: FY2023-24
+  metric: Book Value per Share
+  basis: Standalone
+  unit_hint: ₹
+  section_hint: Ratios / Highlights
+
+- id: casa_avg_fy24
+  question: What was the average CASA ratio in FY2023–24 (if disclosed)?
+  answer: 
+  year: FY2023-24
+  metric: CASA Ratio (avg)
+  basis: Standalone
+  unit_hint: %
+  section_hint: MD&A / Deposits
+
+- id: casa_share_fy24
+  question: What share of total deposits was CASA in FY2023–24?
+  answer: 
+  year: FY2023-24
+  metric: CASA Share of Deposits
+  basis: Standalone
+  unit_hint: %
+  section_hint: Directors’ Report / Highlights

@@ -1,0 +1,48 @@
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pyo
+*.pdb
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE-related
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data and model artifacts
+data/raw/
+data/clean/
+data/segments/
+indexes/
+models/
+reports/
+
+# Cache
+.cache/
+*.cache
+
+# Streamlit
+.streamlit/
+
+# Test outputs
+test-results/

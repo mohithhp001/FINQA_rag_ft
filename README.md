@@ -1,54 +1,45 @@
-# FINQA: Comparative Financial QA System
+# FINQA_RAG_FT (Reconstructed)
+Minimal, runnable skeleton for **Comparative Financial QA: RAG vs Fine-Tuning**.
 
-This project implements a coursework-style system for answering questions over
-financial statements using two approaches:
-
-1. **Retrieval‑Augmented Generation (RAG)**
-2. **Fine‑Tuned Language Model (FT)**
-
-The repository starts with a minimal RAG baseline and will evolve to include
-fine‑tuning, unified evaluation, and reproducibility tooling.
-
-## Repository Structure
-
-```
-configs/    # configuration files
-data/       # placeholder for financial statements and QA pairs
-src/        # core Python packages
-scripts/    # command line interfaces and demos
-eval/       # evaluation reports and notebooks
-tests/      # unit tests
-```
-
-## Installation & Testing
-
+## Quickstart
 ```bash
-make install  # install dependencies
-make test     # run the test suite
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+# (optional) preprocess PDFs -> text -> segments
+python scripts/preprocess.py
+
+# Build RAG index from segments
+python -m src.rag.build_index --segments data/segments --out indexes
+
+# Ask a question (RAG)
+python -m src.cli.ask --q "What was consolidated PAT in FY2024-25?" --k 8
+
+# Fine-tune a small model on your QA CSV (question,answer)
+python -m src.train.ft --data data/qa/qa_pairs.csv --out models/ft-flan-t5-small
+
+# Ask using FT
+python -m src.cli.ask --q "What was consolidated PAT in FY2024-25?" --mode ft --ft_path models/ft-flan-t5-small
 ```
 
-## Minimal Usage Example
+## Folders
+- `data/raw` → PDFs
+- `data/clean` → extracted & cleaned text
+- `data/segments` → JSONL segments (one object per line: `{source,title,text}`)
+- `data/qa/qa_pairs.csv` → at least 50 Q/A pairs
+- `indexes/` → vector + BM25 stores (numpy/pickle)
+- `models/` → fine-tuned model output
+- `reports/` → evaluation results
 
-```python
-from finqa import FinancialRAG
+## Assignment Checklist
+- [x] Last 2 FY annual reports placed in `data/raw/fy24`, `data/raw/fy25`
+- [x] Converted to text & cleaned (`data/clean`) — via `scripts/preprocess.py`
+- [x] Segmented into logical sections (`data/segments/*.jsonl`)
+- [x] 50+ Q/A pairs (`data/qa/qa_pairs.csv`)
+- [x] RAG pipeline (`src/rag/*`, `src/cli/ask.py`)
+- [x] FT pipeline (`src/train/ft.py`)
+- [x] Evaluation (`reports/eval_template.md`)
 
-docs = [
-    "Apple reported record revenue of $90B in Q1 2024",
-    "Tesla's earnings grew 20% year over year",
-]
-
-rag = FinancialRAG(docs)
-print(rag.answer("How much revenue did Apple report?"))
-```
-
-## Roadmap
-
-The project will be extended in stages:
-
-1. **RAG baseline** – loaders, embedders, vector and sparse indexes, CLI.
-2. **Fine‑tuning baseline** – dataset loader, trainer, evaluation utilities.
-3. **Unified evaluation** – accuracy and latency metrics comparing RAG and FT.
-4. **Reproducibility** – configuration files, seed control, Dockerfile.
-
-See `assignment_2_comparative_financial_qa_system_rag_vs_fine_tuning_CLEAN.txt`
-for the full assignment specification.
+## Notes
+- RAG uses `sentence-transformers` + `sklearn.NearestNeighbors` (portable) + `rank_bm25`.
+- Generator uses `transformers` (FLAN-T5 small by default) with graceful fallback to extractive summary if model is unavailable.
+- FT trains FLAN-T5 small with PEFT LoRA for speed/memory; falls back to pure HF if PEFT not installed.

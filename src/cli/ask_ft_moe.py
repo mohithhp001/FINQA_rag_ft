@@ -12,17 +12,19 @@ def _has_header_unit(text):
     if re.search(r"(₹|rs\.?|inr)\s*(in)?\s*(billion|bn)\b", text, flags=re.I): return "billion"
     return None
 
-def _neighbor_unit_hint(seg, store):
+def _neighbor_unit_hint(seg, store, back=3):
     try:
-        fid, idx = seg["id"].split(":")
-        idx = int(idx)
+        fid, idx = seg["id"].split(":"); idx = int(idx)
     except Exception:
         return None
-    prev_id = f"{fid}:{idx-1}"
-    for s in store["segs"]:
-        if s.get("id") == prev_id:
-            return _has_header_unit(s.get("text",""))
+    ids = {s.get("id"): s for s in store["segs"]}
+    for step in range(1, back+1):
+        prev = ids.get(f"{fid}:{idx-step}")
+        if prev:
+            u = _has_header_unit(prev.get("text",""))
+            if u: return u
     return None
+
 
 # -------------------- helpers --------------------
 def _load_store(index_dir):

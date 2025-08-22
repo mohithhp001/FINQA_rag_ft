@@ -1,0 +1,19 @@
+id,year,metric,question,basis,unit_hint,section_hint,answer,evidence_id,evidence_source,evidence_title
+networth_fy25,FY2024-25,Shareholders’ Funds,"What was shareholders’ funds / net worth as at March 31, 2025?",Standalone,₹ crore,Standalone Balance Sheet,3 crore,HDFC_IAR_FY24.jsonl:5,data/raw/fy24/HDFC_IAR_FY24.pdf,MANAGEMENT DISCUSSION AND ANALYSIS
+employees_fy25,FY2024-25,Employees,"How many employees did HDFC Bank have as at March 31, 2025?",Standalone,,Statutory section / Corporate overview,10.60,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+branches_fy25,FY2024-25,Branches,"How many branches were there as at March 31, 2025?",Standalone,,Statutory section / Corporate overview,2,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+dps_fy25,FY2024-25,Dividend per Share,What was the dividend per share for FY2024–25?,Standalone,₹,Directors’ Report / Corporate actions,1,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+bvps_fy25,FY2024-25,Book Value per Share,"What was the book value per share as at March 31, 2025?",Standalone,₹,Ratios / Highlights,9.93,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+networth_fy24,FY2023-24,Shareholders’ Funds,"What was shareholders’ funds / net worth as at March 31, 2024?",Standalone,₹ crore,Standalone Balance Sheet,3 crore,HDFC_IAR_FY24.jsonl:5,data/raw/fy24/HDFC_IAR_FY24.pdf,MANAGEMENT DISCUSSION AND ANALYSIS
+employees_fy24,FY2023-24,Employees,"How many employees did HDFC Bank have as at March 31, 2024?",Standalone,,Statutory section / Corporate overview,10.60,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+branches_fy24,FY2023-24,Branches,"How many branches were there as at March 31, 2024?",Standalone,,Statutory section / Corporate overview,2,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+dps_fy24,FY2023-24,Dividend per Share,What was the dividend per share for FY2023–24?,Standalone,₹,Directors’ Report / Corporate actions,1,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"
+bvps_fy24,FY2023-24,Book Value per Share,"What was the book value per share as at March 31, 2024?",Standalone,₹,Ratios / Highlights,9.93,HDFC_IAR_FY24.jsonl:4,data/raw/fy24/HDFC_IAR_FY24.pdf,"CONSOLIDATED 
+CASH FLOW"

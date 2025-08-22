@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "file": "HDFC_IAR_FY24.jsonl",
+      "segments": 3420
+    },
+    {
+      "file": "HDFC_IAR_FY25.jsonl",
+      "segments": 3503
+    }
+  ]
+}

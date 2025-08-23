@@ -1,12 +1,3 @@
-Perfect 👍 I see your current README is already minimal and runnable.
-Since your repo now includes **extra pieces** (rechunking, RAG re-ranker, FT-MoE, Streamlit UI, evaluation scripts), I’d suggest expanding it a bit so your teammates know exactly:
-
-1. **What’s inside** (RAG, FT, UI).
-2. **When to use which command**.
-3. **Where assignment requirements are satisfied**.
-
-Here’s an updated README you can **copy-paste directly** as `.md`:
-
 ````markdown
 # FINQA_RAG_FT — Comparative Financial QA (RAG vs Fine-Tuning)
 
